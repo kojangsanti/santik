@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="522.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.increasedecrease.PrimaryController">
+   <children>
+      <TextField fx:id="shownumber" layoutX="112.0" layoutY="67.0" />
+      <Button fx:id="increaseButton" layoutX="86.0" layoutY="159.0" mnemonicParsing="false" onAction="#Increase" text="Increase" />
+      <Button fx:id="decreaseButton" layoutX="202.0" layoutY="159.0" mnemonicParsing="false" onAction="#Decrease" text="Decrease" />
+      <Button fx:id="Clearbutton" layoutX="318.0" layoutY="159.0" mnemonicParsing="false" onAction="#Remove" text="Clear" />
+   </children>
+</AnchorPane>
